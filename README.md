@@ -4,7 +4,7 @@ My dotfiles form MacOS setup
 # Terminal
 `brew install iterm2`
 
-![Terminal](https://raw.githubusercontent.com/DMNerd/Dotfiles/main/Screenshots/Term.png?token=AB4GEJL5EHNFSTEGGU6FLYDBT3AFC "My terminal")
+![Terminal](https://raw.githubusercontent.com/DMNerd/Dotfiles/main/Screenshots/Term.png?token=AB4GEJIMAMURCRHAK3J5JQDBT3BAY "My terminal")
 
 ## Prompt
 
