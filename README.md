@@ -1,10 +1,10 @@
 # Dotfiles
-My dotfiles form MacOS setups
+My dotfiles form MacOS setup
 
-# Requirements
-
-## Terminal
+# Terminal
 `brew install iterm2`
+
+![Terminal](https://raw.githubusercontent.com/DMNerd/Dotfiles/main/Screenshots/Term.png?token=AB4GEJL5EHNFSTEGGU6FLYDBT3AFC "My terminal")
 
 ## Prompt
 
