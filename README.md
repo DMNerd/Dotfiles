@@ -20,3 +20,7 @@ My dotfiles form MacOS setup
 ## TOP command
 `brew install pbytop`
 
+## iterm2 zsh integration
+`curl -L https://iterm2.com/shell_integration/zsh \`
+`-o ~/.iterm2_shell_integration.zsh`
+
