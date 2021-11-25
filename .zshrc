@@ -1,4 +1,4 @@
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true
+source ~/.iterm2_shell_integration.bash
 
 pfetch
 
