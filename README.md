@@ -4,7 +4,7 @@ My dotfiles form MacOS setup
 # Terminal
 `brew install iterm2`
 
-![Terminal](https://raw.githubusercontent.com/DMNerd/Dotfiles/main/Screenshots/Term.png?token=AB4GEJIMAMURCRHAK3J5JQDBT3BAY "My terminal")
+![Terminal](https://raw.githubusercontent.com/DMNerd/Dotfiles/main/Screenshots/Term.png "My terminal")
 
 ## Prompt
 
@@ -25,3 +25,7 @@ My dotfiles form MacOS setup
 
 `-o ~/.iterm2_shell_integration.zsh`
 
+## top command
+`brew install bpytop`
+
+![bpytop](https://raw.githubusercontent.com/DMNerd/dotfiles/main/Screenshots/bpytop.png "bpytop")
