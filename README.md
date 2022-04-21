@@ -5,7 +5,7 @@ My dotfiles form MacOS setup
 `brew install iterm2`
 
 ![Terminal](https://raw.githubusercontent.com/DMNerd/Dotfiles/main/Screenshots/Term.png "My terminal")
-
+![Terminal Gruvbox](https://raw.githubusercontent.com/DMNerd/Dotfiles/main/Screenshots/Term_gruv.png "My terminal")
 ## Prompt
 `git clone https://github.com/cybardev/zen.zsh.git ~/.zsh/zen`
 
