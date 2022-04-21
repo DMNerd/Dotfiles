@@ -7,6 +7,7 @@ My dotfiles form MacOS setup
 ![Terminal](https://raw.githubusercontent.com/DMNerd/Dotfiles/main/Screenshots/Term.png "My terminal")
 
 ## Prompt
+`git clone https://github.com/cybardev/zen.zsh.git ~/.zsh/zen`
 
 ### Install Rust cargo
 `curl https://sh.rustup.rs -sSf | sh`
