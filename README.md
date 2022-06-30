@@ -9,12 +9,6 @@ My dotfiles form MacOS setup
 ## Prompt
 `git clone https://github.com/cybardev/zen.zsh.git ~/.zsh/zen`
 
-### Install Rust cargo
-`curl https://sh.rustup.rs -sSf | sh`
-
-### Install powerline-rs
-`cargo install powerline-rs`
-
 ## Fetch command
 `brew install pfetch`
 
