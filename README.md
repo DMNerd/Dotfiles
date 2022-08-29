@@ -12,8 +12,13 @@ My dotfiles form MacOS setup
 ## Fetch command
 `brew install pfetch`
 
-## TOP command
-`brew install bpytop`
+##Copletion
+### Manual installation
+ 1. Clone the repo:
+    ```zsh
+    % cd ~/Git  # ...or wherever you keep your Git repos/Zsh plugins
+    % git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git
+    ```
 
 ## iterm2 zsh integration
 `curl -L https://iterm2.com/shell_integration/zsh \`
