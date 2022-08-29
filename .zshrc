@@ -1,3 +1,4 @@
+source ~/Git/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source ~/.iterm2_shell_integration.zsh
 fpath+="$HOME/.zsh/zen"
 
