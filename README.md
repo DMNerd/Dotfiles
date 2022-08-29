@@ -12,7 +12,7 @@ My dotfiles form MacOS setup
 ## Fetch command
 `brew install pfetch`
 
-##Copletion
+## Completion
 ### Manual installation
  1. Clone the repo:
     ```zsh
