@@ -13,7 +13,7 @@ My dotfiles form MacOS setup
 `brew install pfetch`
 
 ## TOP command
-`brew install pbytop`
+`brew install bpytop`
 
 ## iterm2 zsh integration
 `curl -L https://iterm2.com/shell_integration/zsh \`
