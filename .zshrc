@@ -6,11 +6,5 @@ pfetch
 
 alias top=bpytop
 
-# Completion menu
-autoload -Uz compinit
-zstyle ':completion:*' menu select
-compinit
-_comp_options+=(globdots)
-
 autoload -U promptinit; promptinit
 prompt zen
