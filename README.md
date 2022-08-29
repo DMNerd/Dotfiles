@@ -19,12 +19,6 @@ My dotfiles form MacOS setup
     % cd ~/Git  # ...or wherever you keep your Git repos/Zsh plugins
     % git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git
     ```
-
-## iterm2 zsh integration
-`curl -L https://iterm2.com/shell_integration/zsh \`
-
-`-o ~/.iterm2_shell_integration.zsh`
-
 ## top command
 `brew install bpytop`
 
