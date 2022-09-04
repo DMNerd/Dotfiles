@@ -2,7 +2,6 @@
 My dotfiles form MacOS setup
 
 # Terminal
-
     ```zsh
     % brew install iterm2
     ```
@@ -10,7 +9,9 @@ My dotfiles form MacOS setup
 ![Terminal](https://raw.githubusercontent.com/DMNerd/Dotfiles/main/Screenshots/Term.png "My terminal")
 
 ## Prompt
-`git clone https://github.com/cybardev/zen.zsh.git ~/.zsh/zen`
+    ```zsh
+    % git clone https://github.com/cybardev/zen.zsh.git ~/.zsh/zen
+    ```
 
 ## Fetch command
     ```zsh
@@ -24,7 +25,6 @@ My dotfiles form MacOS setup
     % git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git
     ```
 ## top command
-
     ```zsh
     % brew install bpytop
     ```
@@ -34,7 +34,6 @@ My dotfiles form MacOS setup
 ## The Fuck
 
 Command that repairs commands
-
     ```zsh
     % brew install thefuck
     ```
