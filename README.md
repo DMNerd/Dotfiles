@@ -18,7 +18,7 @@ My dotfiles form MacOS setup
 ## Completion
 ### Manual installation
 
-    % git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git
+    % git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git ~/.zsh/zsh-autocomplete
     
 ## top command
 
