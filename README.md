@@ -15,12 +15,11 @@ My dotfiles form MacOS setup
 
 ## Fetch command
     ```zsh
-    % brew install pfetch`
+    % brew install pfetch
     ```
 
 ## Completion
 ### Manual installation
- 1. Clone the repo:
     ```zsh
     % git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git
     ```
