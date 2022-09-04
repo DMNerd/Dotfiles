@@ -1,4 +1,4 @@
-source ~/Git/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 fpath+="$HOME/.zsh/zen"
 
 pfetch
