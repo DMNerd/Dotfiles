@@ -3,7 +3,7 @@ My dotfiles form MacOS setup
 
 # Terminal
 
-    ```zsh
+    ```
     % brew install iterm2
     ```
 
