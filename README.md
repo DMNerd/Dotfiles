@@ -15,6 +15,10 @@ My dotfiles form MacOS setup
 
     git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 
+## Syntax highlighting
+
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
+
 ## Fetch command
 
     brew install pfetch
