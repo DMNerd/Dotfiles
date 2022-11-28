@@ -13,7 +13,7 @@ My dotfiles form MacOS setup
     
 ## Completion
 
-    git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git ~/.zsh/zsh-autocomplete
+    git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 
 ## Fetch command
 
