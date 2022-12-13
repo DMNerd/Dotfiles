@@ -9,7 +9,7 @@ My dotfiles form MacOS setup
 
 ## Prompt
 
-    git clone https://github.com/cybardev/zen.zsh.git ~/.zsh/zen
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh/powerlevel10k
     
 ## Completion
 
