@@ -4,6 +4,7 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 pfetch
 
+alias ls=lsd
 alias top=bpytop
 eval $(thefuck --alias)
 

@@ -23,9 +23,13 @@ My dotfiles form MacOS setup
 
     brew install pfetch
     
-## top command
+## Top command
 
     brew install bpytop
+
+## LSDeluxe
+
+    brew install lsd    
 
 ![bpytop](https://raw.githubusercontent.com/DMNerd/dotfiles/main/Screenshots/bpytop.png "bpytop")
 
