@@ -27,11 +27,13 @@ My dotfiles form MacOS setup
 
     brew install bpytop
 
+![bpytop](https://raw.githubusercontent.com/DMNerd/dotfiles/main/Screenshots/bpytop.png "bpytop")
+
 ## LSDeluxe
 
     brew install lsd    
 
-![bpytop](https://raw.githubusercontent.com/DMNerd/dotfiles/main/Screenshots/bpytop.png "bpytop")
+![lsdeluxe](https://raw.githubusercontent.com/DMNerd/dotfiles/main/Screenshots/lsdeluxe.png "LSDeluxe")
 
 ## The Fuck
 
