@@ -1,9 +1,15 @@
 # Dotfiles
 My dotfiles form MacOS setup
 
+# Window Manager
+
+    brew install koekeishiya/formulae/yabai
+
+    brew install koekeishiya/formulae/skhd
+
 # Terminal
 
-    brew install iterm2
+    brew install warp
 
 ![Terminal](https://raw.githubusercontent.com/DMNerd/Dotfiles/main/Screenshots/Term.png "My terminal")
 
