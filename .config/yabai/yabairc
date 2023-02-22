@@ -33,5 +33,6 @@ yabai -m rule --add app="^Finder Settings$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^QuickTime Player$" manage=off
 yabai -m rule --add app="^Dropover$" manage=off
-yabai -m rule --add app="^IINA" manage=off
-yabai -m rule --add app="^GitHub Desktop" manage=off
+yabai -m rule --add app="^IINA$" manage=off
+yabai -m rule --add app="^GitHub Desktop$" manage=off
+yabai -m rule --add app="^Raycast$" manage=off
