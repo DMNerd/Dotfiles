@@ -7,6 +7,10 @@ My dotfiles form MacOS setup
 
     brew install koekeishiya/formulae/skhd
 
+    brew services start yabai
+    
+    brew services start skhd
+
 # Terminal
 
     brew install warp
