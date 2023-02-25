@@ -11,9 +11,8 @@ yabai -m config left_padding 12
 yabai -m config right_padding 12
 yabai -m config window_gap 12
 
-# -- mouse settings --
-
-# center mouse on window with focus
+# -- mouse settings -- (Mouse centric config)
+yabai -m config focus_follows_mouse on
 yabai -m config mouse_follows_focus off
 
 # modifier for clicking and dragging with mouse
@@ -28,11 +27,18 @@ yabai -m mouse_drop_action swap
 
 
 # disable specific apps
+
+# general rules
+yabai -m rule --add title='Preferences$' manage=off
+yabai -m rule --add title='Settings' manage=off
+
+# specific rules
 yabai -m rule --add app="^System Settings$" manage=off
-yabai -m rule --add app="^Finder Settings$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^QuickTime Player$" manage=off
 yabai -m rule --add app="^Dropover$" manage=off
 yabai -m rule --add app="^IINA$" manage=off
 yabai -m rule --add app="^GitHub Desktop$" manage=off
 yabai -m rule --add app="^Raycast$" manage=off
+yabai -m rule --add app="^Messenger$" manage=off
+yabai -m rule --add app="^Tailscale$" manage=off
