@@ -43,3 +43,4 @@ yabai -m rule --add app="^GitHub Desktop$" manage=off
 yabai -m rule --add app="^Raycast$" manage=off
 yabai -m rule --add app="^Messenger$" manage=off
 yabai -m rule --add app="^Tailscale$" manage=off
+yabai -m rule --add app="^Keka$" manage=off
