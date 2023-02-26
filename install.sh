@@ -1,0 +1,1 @@
+stow -t $HOME/.config -v yabai
