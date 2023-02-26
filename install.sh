@@ -17,4 +17,6 @@ brew list pfetch || brew install pfetch
 brew list bpytop || brew install bpytop
 brew list lsd || brew install lsd
 
+# Remove existing zshrc
+rm $HOME/.zshrc
 stow -t $HOME -v zsh
