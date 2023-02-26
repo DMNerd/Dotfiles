@@ -1,7 +1,7 @@
-#YABAI and SKHD
 #Check if stow is installed using homebrew
 brew list stow || brew install stow
 
+#YABAI and SKHD
 stow -t $HOME/.config/yabai -D yabai
 stow -t $HOME/.config/yabai -v yabai
 
