@@ -25,22 +25,58 @@ yabai -m config mouse_action2 resize
 # when window is dropped in center of another window, swap them (on edges it will split it)
 yabai -m mouse_drop_action swap
 
-
-# disable specific apps
-
-# general rules
-yabai -m rule --add title='Preferences$' manage=off
-yabai -m rule --add title='Settings' manage=off
-yabai -m rule --add title='Install' manage=off
-
-# specific rules
-yabai -m rule --add app="^System Settings$" manage=off
-yabai -m rule --add app="^Calculator$" manage=off
-yabai -m rule --add app="^QuickTime Player$" manage=off
-yabai -m rule --add app="^Dropover$" manage=off
-yabai -m rule --add app="^IINA$" manage=off
-yabai -m rule --add app="^GitHub Desktop$" manage=off
-yabai -m rule --add app="^Raycast$" manage=off
-yabai -m rule --add app="^Messenger$" manage=off
-yabai -m rule --add app="^Tailscale$" manage=off
+# float system preferences. Most of these just diable Yabai form resizing them.
+yabai -m rule --add app="^1Password 7$" manage=off
+yabai -m rule --add app="^Adobe Creative Cloud$" manage=off
+yabai -m rule --add app="^Adobe Media Encoder CC 2018$" manage=off
+yabai -m rule --add app="^Audio Hijack$" manage=off
+yabai -m rule --add app="^BrowserStackLocal$" manage=off
+yabai -m rule --add app="^CodeKit$" manage=off
+yabai -m rule --add app="^ColorSlurp$" manage=off
+yabai -m rule --add app="^CraftManager$" manage=off
+yabai -m rule --add app="^Dash$" manage=off
+yabai -m rule --add app="^Docker Desktop$" manage=off
+yabai -m rule --add app="^Dropbox$" manage=off
+yabai -m rule --add app="^GIPHY CAPTURE$" manage=off
+yabai -m rule --add app="^GlobalProtect$" manage=off
+yabai -m rule --add app="^GoToMeeting$" manage=off
+yabai -m rule --add app="^Hidden Bar$" manage=off
+yabai -m rule --add app="^ImageOptim$" manage=off
+yabai -m rule --add app="^Karabiner-Elements$" manage=off
+yabai -m rule --add app="^Karabiner-EventViewer$" manage=off
+yabai -m rule --add app="^Kitematic$" manage=off
+yabai -m rule --add app="^Loopback$" manage=off
+yabai -m rule --add app="^MAMP PRO$" manage=off
+yabai -m rule --add app="^Microsoft Remote Desktop$" manage=off
+yabai -m rule --add app="^Microsoft Teams$" manage=off
+yabai -m rule --add app="^NextDNS$" manage=off
+yabai -m rule --add app="^Postman$" manage=off
+yabai -m rule --add app="^Sequel Pro$" manage=off
+yabai -m rule --add app="^The Unarchiver$" manage=off
 yabai -m rule --add app="^Keka$" manage=off
+yabai -m rule --add app="^TunnelBear$" manage=off
+yabai -m rule --add app="^Github$" manage=off
+yabai -m rule --add app="^VMware Fusion$" manage=off
+yabai -m rule --add app="^Logitech G HUB$" manage=off
+yabai -m rule --add app="^p4merge$" manage=off
+yabai -m rule --add app="^zoom.us$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^Disk Utility$" manage=off
+yabai -m rule --add app="^Activity Monitor$" manage=off
+yabai -m rule --add app="^Path Finder$" manage=off
+yabai -m rule --add app="^TeamViewer$" manage=off
+yabai -m rule --add app="^Private Internet Access$" manage=off
+yabai -m rule --add app="^Discord$" manage=off
+yabai -m rule --add app="^Calendar$" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^Podcasts$" manage=off
+yabai -m rule --add app="^Music$" manage=off
+
+# float system preferences
+yabai -m rule --add app="^System Information$" manage=off
+yabai -m rule --add app="^System Preferences$" manage=off
+yabai -m rule --add title='Preferences$' manage=off
+yabai -m rule --add title='^Archive Utility$' manage=off
+
+# float settings windows
+yabai -m rule --add title='Settings$' manage=off
