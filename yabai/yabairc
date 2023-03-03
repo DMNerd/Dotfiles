@@ -55,7 +55,7 @@ yabai -m rule --add app="^Sequel Pro$" manage=off
 yabai -m rule --add app="^The Unarchiver$" manage=off
 yabai -m rule --add app="^Keka$" manage=off
 yabai -m rule --add app="^TunnelBear$" manage=off
-yabai -m rule --add app="^GitHub$" manage=off
+yabai -m rule --add app="^GitHub Desktop$" manage=off
 yabai -m rule --add app="^VMware Fusion$" manage=off
 yabai -m rule --add app="^Logitech G HUB$" manage=off
 yabai -m rule --add app="^p4merge$" manage=off
