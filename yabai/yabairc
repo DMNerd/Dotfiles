@@ -73,6 +73,7 @@ yabai -m rule --add app="^Podcasts$" manage=off
 yabai -m rule --add app="^Music$" manage=off
 
 # float system preferences
+yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^System Information$" manage=off
 yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add title='Preferences$' manage=off
