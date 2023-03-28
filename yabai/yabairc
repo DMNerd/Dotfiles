@@ -72,6 +72,7 @@ yabai -m rule --add app="^Calendar$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^Podcasts$" manage=off
 yabai -m rule --add app="^Music$" manage=off
+yabai -m rule --add app="^Sono$" manage=off
 
 # float system preferences
 yabai -m rule --add app="^System Settings$" manage=off
