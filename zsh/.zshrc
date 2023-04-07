@@ -1,4 +1,4 @@
-pfetch
+fastfetch
 
 alias ls=lsd
 alias top=bpytop

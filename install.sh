@@ -9,7 +9,7 @@ stow -t $HOME/.config/skhd -D skhd
 stow -t $HOME/.config/skhd -v skhd
 
 #ZSH
-brew list pfetch || brew install pfetch
+brew list pfetch || brew install fastfetch
 brew list bpytop || brew install bpytop
 brew list lsd || brew install lsd
 
