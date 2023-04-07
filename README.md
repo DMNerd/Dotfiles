@@ -19,7 +19,7 @@ My dotfiles form MacOS setup
 
 ## Fetch command
 
-    brew install pfetch
+    brew install fastfetch
     
 ## Top command
 
