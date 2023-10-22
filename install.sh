@@ -12,6 +12,7 @@ stow -t $HOME/.config/skhd -v skhd
 brew list fastfetch || brew install fastfetch
 brew list bpytop || brew install bpytop
 brew list lsd || brew install lsd
+brew list thefuck || brew install thefuck
 
 stow -t $HOME -D zsh
 stow -t $HOME -v zsh
