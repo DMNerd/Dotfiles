@@ -1,7 +1,7 @@
 # Dotfiles
 My dotfiles form MacOS setup
 
-Automated install script installs all the dependencies and stows the configuration files!
+Automated install script installs all the dependencies and stows the configuration files GNU Stow utility!
 
 ![Terminal](https://raw.githubusercontent.com/DMNerd/Dotfiles/main/Screenshots/Term.png "My terminal")
 
