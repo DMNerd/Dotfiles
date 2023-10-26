@@ -10,7 +10,7 @@ stow -t $HOME/.config/skhd -v skhd
 
 #Terminal
 brew list warp || brew install warp
-#ZSH
+
 brew tap homebrew/cask-fonts
 brew install font-hack-nerd-font
 
