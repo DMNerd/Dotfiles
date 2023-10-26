@@ -8,6 +8,8 @@ stow -t $HOME/.config/yabai -v yabai
 stow -t $HOME/.config/skhd -D skhd
 stow -t $HOME/.config/skhd -v skhd
 
+#Terminal
+brew list warp || brew install warp
 #ZSH
 brew tap homebrew/cask-fonts
 brew install font-hack-nerd-font
