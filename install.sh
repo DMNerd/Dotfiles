@@ -9,6 +9,9 @@ stow -t $HOME/.config/skhd -D skhd
 stow -t $HOME/.config/skhd -v skhd
 
 #ZSH
+brew tap homebrew/cask-fonts
+brew install font-hack-nerd-font
+
 brew list fastfetch || brew install fastfetch
 brew list bpytop || brew install bpytop
 brew list lsd || brew install lsd
