@@ -18,3 +18,6 @@ brew list thefuck || brew install thefuck
 
 stow -t $HOME -D zsh
 stow -t $HOME -v zsh
+
+#Text Editor
+brew list cursor || brew install cursor
