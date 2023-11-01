@@ -35,5 +35,5 @@ fi
 
 mkdir $HOME/.config/raycast
 
-stow -t $HOME/.config/terminator -D raycast
-stow -t $HOME/.config/terminator -v raycast
+stow -t $HOME/.config/raycast -D raycast
+stow -t $HOME/.config/raycast -v raycast
