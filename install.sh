@@ -26,14 +26,4 @@ stow -t $HOME -v zsh
 brew list cursor || brew install cursor
 
 #Raycast
-
 brew list raycast || brew install raycast
-
-if  test -d $HOME/.config/raycast; then
-    rm -rf $HOME/.config/raycast
-fi
-
-mkdir $HOME/.config/raycast
-
-stow -t $HOME/.config/raycast -D raycast
-stow -t $HOME/.config/raycast -v raycast
