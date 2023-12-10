@@ -27,3 +27,6 @@ brew list cursor || brew install cursor
 
 #Raycast
 brew list raycast || brew install raycast
+
+#Tuxera NTFS
+brew list tuxera-ntfs || brew install tuxera-ntfs
