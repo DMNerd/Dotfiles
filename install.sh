@@ -11,8 +11,11 @@ stow -t $HOME/.config/skhd -v skhd
 #Terminal
 brew list warp || brew install warp
 
+#Fonts
 brew tap homebrew/cask-fonts
 brew install font-hack-nerd-font
+#Prompt
+brew list starship || brew install starship
 
 brew list fastfetch || brew install fastfetch
 brew list bpytop || brew install bpytop
