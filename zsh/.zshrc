@@ -1,3 +1,5 @@
+eval "$(starship init zsh)"
+
 fastfetch
 
 alias ls=lsd
