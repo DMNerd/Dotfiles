@@ -25,11 +25,14 @@ brew list thefuck || brew install thefuck
 stow -t $HOME -D zsh
 stow -t $HOME -v zsh
 
-#Text Editor
-brew list cursor || brew install cursor
+#Code and Text editor
+brew list visual-studio-code || brew install visual-studio-code
 
 #Raycast
 brew list raycast || brew install raycast
 
 #Tuxera NTFS
 brew list tuxera-ntfs || brew install tuxera-ntfs
+
+#Preffered Browser
+brew list floorp || brew install floorp
