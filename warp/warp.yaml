@@ -1,0 +1,25 @@
+{
+    AIAssistantRequestLimitInfo = "{\\"limit\\":100,\\"num_requests_used_since_refresh\\":0,\\"next_refresh_time\\":\\"2023-12-10T11:10:01.143720579Z\\"}";
+    AliasExpansionBannerSeen = true;
+    AutosuggestionAcceptedCount = 11;
+    ChangelogVersions = "{\\"v0.2023.02.07.08.03.stable_01\\":true,\\"v0.2023.02.14.08.05.stable_01\\":true,\\"v0.2023.02.21.08.03.stable_01\\":true,\\"v0.2023.02.28.08.03.stable_01\\":true,\\"v0.2023.03.07.08.02.stable_01\\":true,\\"v0.2023.03.07.08.02.stable_03\\":true,\\"v0.2023.03.14.08.03.stable_01\\":true,\\"v0.2023.03.21.08.02.stable_02\\":true,\\"v0.2023.03.21.08.02.stable_03\\":true,\\"v0.2023.03.28.08.03.stable_01\\":true,\\"v0.2023.04.04.08.03.stable_01\\":true,\\"v0.2023.04.11.08.03.stable_00\\":true,\\"v0.2023.04.25.08.05.stable_00\\":true,\\"v0.2023.05.02.08.03.stable_00\\":true,\\"v0.2023.05.09.08.03.stable_01\\":true,\\"v0.2023.05.18.01.08.stable_04\\":true,\\"v0.2023.05.23.08.05.stable_00\\":true,\\"v0.2023.05.30.08.03.stable_02\\":true,\\"v0.2023.06.13.08.03.stable_02\\":true,\\"v0.2023.06.13.08.03.stable_03\\":true,\\"v0.2023.07.25.08.03.stable_00\\":true,\\"v0.2023.08.01.08.05.stable_03\\":true,\\"v0.2023.08.08.08.04.stable_00\\":true,\\"v0.2023.08.15.08.03.stable_00\\":true,\\"v0.2023.08.29.08.04.stable_00\\":true,\\"v0.2023.09.06.18.09.stable_00\\":true,\\"v0.2023.09.12.16.17.stable_00\\":true,\\"v0.2023.09.19.08.04.stable_00\\":true,\\"v0.2023.09.26.08.09.stable_00\\":true,\\"v0.2023.10.03.08.03.stable_01\\":true,\\"v0.2023.10.10.08.06.stable_02\\":true,\\"v0.2023.10.17.08.03.stable_01\\":true,\\"v0.2023.10.17.08.03.stable_02\\":true,\\"v0.2023.10.31.08.03.stable_02\\":true,\\"v0.2023.11.07.08.02.stable_00\\":true,\\"v0.2023.11.14.08.02.stable_02\\":true,\\"v0.2023.11.28.08.02.stable_00\\":true,\\"v0.2023.12.05.08.02.stable_00\\":true,\\"v0.2023.12.12.08.02.stable_04\\":true,\\"v0.2023.12.19.08.02.stable_00\\":true,\\"v0.2024.01.02.08.02.stable_02\\":true,\\"v0.2024.01.09.08.02.stable_01\\":true,\\"v0.2024.01.09.08.02.stable_02\\":true,\\"v0.2024.01.16.16.31.stable_01\\":true,\\"v0.2024.01.30.16.52.stable_01\\":true,\\"v0.2024.02.06.08.02.stable_01\\":true,\\"v0.2024.02.13.08.02.stable_00\\":true}";
+    CrashReportingEnabled = false;
+    DismissedWarpAIWarmWelcome = true;
+    ExperimentId = "da5dfb3f-2b03-46b9-969c-19c3106d1a3a";
+    FontName = "\\"Hack Nerd Font Mono\\"";
+    FontSize = "12.0";
+    HasAutoOpenedWelcomeFolder = true;
+    HasOpenedWarpDriveOnStartUp = true;
+    HonorPS1 = true;
+    InputMode = "\\"PinnedToTop\\"";
+    LineHeightRatio = "1.2";
+    Notifications = "{\\"mode\\":\\"Dismissed\\",\\"is_long_running_enabled\\":true,\\"long_running_threshold\\":{\\"secs\\":30,\\"nanos\\":0},\\"is_password_prompt_enabled\\":true}";
+    OpenFileEditor = "\\"VSCode\\"";
+    ReceivedReferralTheme = "\\"Inactive\\"";
+    Shortcuts = true;
+    Spacing = "\\"Compact\\"";
+    SystemTheme = false;
+    TelemetryEnabled = false;
+    WelcomeTipsCompleted = true;
+    WelcomeTipsFeaturesUsed = "[{\\"Action\\":\\"ThemePicker\\"},{\\"Hint\\":\\"BlockAction\\"},{\\"Hint\\":\\"CreateBlock\\"},{\\"Hint\\":\\"BlockSelect\\"},{\\"Action\\":\\"SplitPane\\"},{\\"Action\\":\\"WarpAI\\"},{\\"Action\\":\\"CommandPalette\\"}]";
+}
