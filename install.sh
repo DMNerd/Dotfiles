@@ -18,6 +18,9 @@ brew list raycast || brew install raycast
 stow -t $HOME/.config/raycast -D raycast
 stow -t $HOME/.config/raycast -v raycast
 
+#Fonts
+brew list font-hack-nerd-font || brew install font-hack-nerd-font
+
 #Terminal
 brew list warp || brew install warp
 
