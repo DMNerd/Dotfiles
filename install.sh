@@ -1,19 +1,26 @@
 #Check if stow is installed using homebrew
 brew list stow || brew install stow
 
-#YABAI and SKHD
-stow -t $HOME/.config/yabai -D yabai
-stow -t $HOME/.config/yabai -v yabai
+#Aerospace
+stow -t $HOME/.config/aerospace -D aerospace
+stow -t $HOME/.config/aerospace -v aerospace
 
-stow -t $HOME/.config/skhd -D skhd
-stow -t $HOME/.config/skhd -v skhd
+#Sketchybar
+brew tap FelixKratz/formulae
+brew list sketchybar || brew install sketchybar
+
+stow -t $HOME/.config/sketchybar -D sketchybar
+stow -t $HOME/.config/sketchybar -v sketchybar
+
+#Raycast
+brew list raycast || brew install raycast
+
+stow -t $HOME/.config/raycast -D raycast
+stow -t $HOME/.config/raycast -v raycast
 
 #Terminal
 brew list warp || brew install warp
 
-#Fonts
-brew tap homebrew/cask-fonts
-brew install font-hack-nerd-font
 #Prompt
 brew list starship || brew install starship
 
