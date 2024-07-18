@@ -24,6 +24,8 @@ stow -t $HOME/.config/raycast -D raycast
 stow -t $HOME/.config/raycast -v raycast
 
 #Fonts
+brew list font-sf-pro || brew install font-sf-pro
+brew list sf-symbols || brew install sf-symbols
 brew list font-hack-nerd-font || brew install font-hack-nerd-font
 
 #Terminal
