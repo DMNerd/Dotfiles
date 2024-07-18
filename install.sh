@@ -1,9 +1,14 @@
 #Check if stow is installed using homebrew
 brew list stow || brew install stow
 
-#Aerospace
-stow -t $HOME/.config/aerospace -D aerospace
-stow -t $HOME/.config/aerospace -v aerospace
+#YABAI and SKHD
+brew list yabai || brew install yabai
+stow -t $HOME/.config/yabai -D yabai
+stow -t $HOME/.config/yabai -v yabai
+
+brew list skhd || brew install skhd
+stow -t $HOME/.config/skhd -D skhd
+stow -t $HOME/.config/skhd -v skhd
 
 #Sketchybar
 brew tap FelixKratz/formulae
