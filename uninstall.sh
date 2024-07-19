@@ -1,6 +1,11 @@
-#YABAI and SKHD
-stow -t $HOME/.config/aerospace -D aerospace
-stow -t $HOME -D zsh
+stow -t $HOME/.config/nix-darwin -D nix-darwin
 
-defaults write -g NSAutomaticWindowAnimationsEnabled -bool true
-defaults write -g NSWindowShouldDragOnGesture NO
+#YABAI and SKHD
+stow -t $HOME/.config/yabai -D yabai
+stow -t $HOME/.config/skhd -D skhd
+
+stow -t $HOME/.config/sketchybar -D sketchybar
+
+stow -t $HOME/.config/raycast -D raycast
+
+stow -t $HOME -D zsh
