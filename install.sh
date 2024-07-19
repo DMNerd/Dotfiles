@@ -1,7 +1,3 @@
-#NIX
-stow -t $HOME/.config/nix-darwin -D nix-darwin
-stow -t $HOME/.config/nix-darwin -v nix-darwin
-
 #YABAI and SKHD 
 stow -t $HOME/.config/yabai -D yabai
 stow -t $HOME/.config/yabai -v yabai

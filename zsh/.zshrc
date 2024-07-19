@@ -6,6 +6,12 @@ then
   compinit
 fi
 
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt appendhistory
+setopt autocd
+
 eval "$(starship init zsh)"
 
 fastfetch

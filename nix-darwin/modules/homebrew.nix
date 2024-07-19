@@ -40,6 +40,7 @@
 
       "visual-studio-code"
       "zed"
+      "github"
 
       "iina" 
       "raycast" 

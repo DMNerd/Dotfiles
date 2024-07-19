@@ -35,6 +35,7 @@
       '';
       nix.settings = {
         auto-optimise-store = false;
+        warn-dirty = false;
       };
 
   };
