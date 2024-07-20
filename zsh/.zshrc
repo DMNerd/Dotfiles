@@ -16,6 +16,6 @@ eval "$(starship init zsh)"
 
 macchina
 
-alias ls=lsd
+alias ls=eza --icons=always
 alias top=bpytop
 eval $(thefuck --alias)

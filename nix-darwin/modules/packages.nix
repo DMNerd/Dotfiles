@@ -1,7 +1,8 @@
 {pkgs, ...}: {
   environment.systemPackages = with pkgs; [
+    eza
+    git
     just
-    lsd
     macchina
     neovim
   ];

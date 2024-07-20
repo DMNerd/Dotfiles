@@ -17,22 +17,22 @@
     };
 
     taps = [
+      "FelixKratz/formulae"
       "homebrew/services"
       "koekeishiya/formulae"
-      "FelixKratz/formulae"
     ];
 
     # `brew install`
     # TODO Feel free to add your favorite apps here.
     brews = [
-      "wget" # download tool
-      "curl" # no not install curl via nixpkgs, it's not working well on macOS!
-      "stow"
-      "starship"
-      "thefuck"
       "bpytop"
-      "yabai"
+      "curl" # no not install curl via nixpkgs, it's not working well on macOS!
       "skhd"
+      "starship"
+      "stow"
+      "thefuck"
+      "wget" # download tool
+      "yabai"
     ];
 
     # `brew install --cask`
@@ -52,6 +52,7 @@
       "github"
 
       "iina"
+      "jellyfin-media-player"
       "raycast"
 
       "tuxera-ntfs"
