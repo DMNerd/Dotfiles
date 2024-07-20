@@ -1,3 +1,6 @@
+#NIX
+darwin-rebuild switch --flake ./nix-darwin
+
 #YABAI and SKHD 
 stow -t $HOME/.config/yabai -D yabai
 stow -t $HOME/.config/yabai -v yabai

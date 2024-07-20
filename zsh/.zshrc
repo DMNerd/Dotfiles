@@ -14,7 +14,7 @@ setopt autocd
 
 eval "$(starship init zsh)"
 
-fastfetch
+macchina
 
 alias ls=lsd
 alias top=bpytop

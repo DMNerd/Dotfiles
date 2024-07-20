@@ -19,10 +19,8 @@
       "wget" # download tool
       "curl" # no not install curl via nixpkgs, it's not working well on macOS!
       "stow"
-      "fastfetch"
       "starship"
       "thefuck"
-      "lsd"
       "bpytop"
       "yabai"
       "skhd"
