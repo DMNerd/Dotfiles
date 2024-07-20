@@ -7,13 +7,16 @@
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs }:
-  let
-    configuration = { pkgs, ... }: {
+  outputs = inputs @ {
+    self,
+    nix-darwin,
+    nixpkgs,
+  }: let
+    configuration = {pkgs, ...}: {
       # List packages installed in system profile. To search by name, run:
       # $ nix-env -qaP | grep wget
 
-      # Auto upgrade nix package and the daemon service.
+      #Auto upgrade nix package and the daemon service.
       services.nix-daemon.enable = true;
       nix.package = pkgs.nix;
 
@@ -37,22 +40,23 @@
         auto-optimise-store = false;
         warn-dirty = false;
       };
-
-  };
-  in
-  {
+    };
+  in {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#Adams-MacBook-Air
     darwinConfigurations."Adams-MacBook-Air" = nix-darwin.lib.darwinSystem {
-      modules = [ 
-        configuration 
+      modules = [
+        configuration
         ./modules/system.nix
         ./modules/packages.nix
         ./modules/homebrew.nix
       ];
+      specialArgs = {inherit inputs;};
     };
 
     # Expose the package set, including overlays, for convenience.
     darwinPackages = self.darwinConfigurations."Adams-MacBook-Air".pkgs;
+
+    formatter.aarch64-darwin = nixpkgs.legacyPackages.aarch64-darwin.alejandra;
   };
 }

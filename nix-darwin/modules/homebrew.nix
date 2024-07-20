@@ -1,10 +1,19 @@
-{ pkgs, ... }: {
-    homebrew = {
+{pkgs, ...}: {
+  homebrew = {
     enable = true;
 
     onActivation = {
       autoUpdate = false;
       cleanup = "zap";
+    };
+
+    masApps = {
+      Dropover = 1355679052;
+      GarageBand = 682658836;
+      Keka = 470158793;
+      OTPAuth = 1471867429;
+      Tailscale = 1475387142; # App Store URL id
+      Theine = 955848755;
     };
 
     taps = [
@@ -24,24 +33,26 @@
       "bpytop"
       "yabai"
       "skhd"
-      "tailscale"
     ];
 
     # `brew install --cask`
     # TODO Feel free to add your favorite apps here.
     casks = [
       "warp"
+      "vmware-fusion"
 
       "arc"
       "floorp"
       "spotify"
+      "cryptomator"
+      "kekaexternalhelper"
 
       "visual-studio-code"
       "zed"
       "github"
 
-      "iina" 
-      "raycast" 
+      "iina"
+      "raycast"
 
       "tuxera-ntfs"
 
