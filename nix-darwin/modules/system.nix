@@ -155,7 +155,7 @@
     pkgs.zsh
   ];
   environment.variables.EDITOR = "nvim";
-  
+
   # Set your time zone.
   time.timeZone = "Europe/Prague";
 
@@ -165,7 +165,6 @@
       # icon fonts
       material-design-icons
       font-awesome
-
       # nerdfonts
       # https://github.com/NixOS/nixpkgs/blob/nixos-24.05/pkgs/data/fonts/nerdfonts/shas.nix
       (nerdfonts.override {
@@ -174,9 +173,9 @@
           "NerdFontsSymbolsOnly"
           # Characters
           "FiraCode"
-          "JetBrainsMono"
-          "Iosevka"
           "Hack"
+          "Iosevka"
+          "Meslo"
         ];
       })
     ];

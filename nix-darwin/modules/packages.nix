@@ -3,6 +3,7 @@
     eza
     git
     just
+    lua
     macchina
     neovim
   ];

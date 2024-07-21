@@ -27,6 +27,7 @@
     brews = [
       "bpytop"
       "curl" # no not install curl via nixpkgs, it's not working well on macOS!
+      "sketchybar"
       "skhd"
       "starship"
       "stow"
@@ -41,6 +42,7 @@
       "arc"
       "cryptomator"
       "floorp"
+      "font-sf-mono"
       "font-sf-pro"
       "github"
       "iina"
