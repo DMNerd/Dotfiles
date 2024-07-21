@@ -38,27 +38,25 @@
     # `brew install --cask`
     # TODO Feel free to add your favorite apps here.
     casks = [
-      "warp"
-      "vmware-fusion"
-
       "arc"
-      "floorp"
-      "spotify"
       "cryptomator"
-      "kekaexternalhelper"
-
-      "visual-studio-code"
-      "zed"
+      "floorp"
+      "font-sf-pro"
       "github"
-
       "iina"
       "jellyfin-media-player"
+      "kekaexternalhelper"
+      "latest"
       "raycast"
-
-      "tuxera-ntfs"
-
       "sf-symbols"
-      "font-sf-pro"
+      "spotify"
+      "termius"
+      "tuxera-ntfs"
+      "visual-studio-code"
+      "vmware-fusion"
+      "warp"
+      "whisky"
+      "zed"
     ];
   };
 }
