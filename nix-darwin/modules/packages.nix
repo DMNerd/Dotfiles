@@ -6,5 +6,4 @@
     macchina
     neovim
   ];
-  environment.variables.EDITOR = "nvim";
 }

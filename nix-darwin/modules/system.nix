@@ -154,7 +154,8 @@
   environment.shells = [
     pkgs.zsh
   ];
-
+  environment.variables.EDITOR = "nvim";
+  
   # Set your time zone.
   time.timeZone = "Europe/Prague";
 
