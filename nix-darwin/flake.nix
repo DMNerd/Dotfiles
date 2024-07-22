@@ -65,6 +65,7 @@
         ./modules/system.nix
         ./modules/packages.nix
         ./modules/homebrew.nix
+        ./modules/yabai.nix
       ];
       specialArgs = {inherit inputs;};
     };

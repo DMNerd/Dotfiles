@@ -33,7 +33,6 @@
       "stow"
       "thefuck"
       "wget" # download tool
-      "yabai"
     ];
 
     # `brew install --cask`
