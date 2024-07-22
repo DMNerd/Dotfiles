@@ -6,6 +6,7 @@
     lua
     macchina
     neovim
+    skhd
     yabai
   ];
 }

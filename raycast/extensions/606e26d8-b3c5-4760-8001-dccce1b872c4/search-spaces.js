@@ -39,8 +39,11 @@ ${l}`)}let s=this.tokenRefreshResponseParser(await r.json());return s.refresh_to
   `)}async function Ea(){let e=await(0,Tp.runAppleScript)(`
     set _output to ""
 
-    tell application "Arc"    
-      set _space_index to 1  
+    tell application "Arc"
+      if (count of windows) is 0 then
+        make new window
+      end if
+      set _space_index to 1
       
       repeat with _space in spaces of front window
         set _title to get title of _space
