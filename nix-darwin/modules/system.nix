@@ -1,4 +1,8 @@
 {pkgs, ...}: {
+  users.users.dmnerd = {
+    name = "dmnerd";
+    home = "/Users/dmnerd";
+  };
   system = {
     activationScripts.postUserActivation.text = ''
       # activateSettings -u will reload the settings from the database and apply them to the current session,
@@ -172,7 +176,7 @@
           # symbols icon only
           "NerdFontsSymbolsOnly"
           # Characters
-          "FiraCode"
+          "SourceCodePro"
           "Hack"
           "Iosevka"
           "Meslo"
