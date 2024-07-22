@@ -30,7 +30,7 @@
       system = "aarch64-darwin";
       specialArgs = {inherit inputs;};
       modules = [
-        ./modules/default.nix
+        ./modules/core.nix
         ./modules/system.nix
         ./modules/packages.nix
         ./modules/homebrew.nix
@@ -40,7 +40,6 @@
 
     # Expose the package set, including overlays, for convenience.
     darwinPackages = self.darwinConfigurations."Adams-MacBook-Air".pkgs;
-
-    formatter.aarch64-darwin = nixpkgs.legacyPackages.aarch64-darwin.alejandra;
+    formatter.${system} = nixpkgs.legacyPackages.${system}.alejandra;
   };
 }

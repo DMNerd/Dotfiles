@@ -33,4 +33,5 @@
     nixpkgs.config.allowUnfree = true;
     nixpkgs.config.allowUnfreePredicate = (_: true);
     nixpkgs.hostPlatform = "aarch64-darwin";
+    nix.linux-builder.enable = true;
 }
