@@ -22,7 +22,8 @@
         wvous-tl-corner = 2; # top-left - Mission Control
         wvous-tr-corner = 13; # top-right - Lock Screen
         wvous-bl-corner = 3; # bottom-left - Application Windows
-        wvous-br-corner = 4; # bottom-right - Desktop
+        wvous-br-corner = 14; # bottom-right - Quick Note
+        tilesize = 50;
       };
 
       # customize finder
@@ -169,6 +170,7 @@
       # icon fonts
       material-design-icons
       font-awesome
+      fira-code-symbols
       # nerdfonts
       # https://github.com/NixOS/nixpkgs/blob/nixos-24.05/pkgs/data/fonts/nerdfonts/shas.nix
       (nerdfonts.override {
