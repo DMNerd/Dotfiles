@@ -8,11 +8,6 @@
       window_placement             = "second_child";
       window_opacity               = "off";
       window_opacity_duration      = "0.0";
-      window_border                = "on";
-      window_border_placement      = "inset";
-      window_border_width          = 2;
-      window_border_radius         = 3;
-      active_window_border_topmost = "off";
       window_topmost               = "on";
       window_shadow                = "float";
       active_window_opacity        = "1.0";
@@ -34,8 +29,6 @@
         # float system preferences. Most of these just diable Yabai form resizing them.
         yabai -m rule --add app="^1Password 7$" manage=off
         yabai -m rule --add app="^Adobe Creative Cloud$" manage=off
-        yabai -m rule --add app="^Adobe Media Encoder CC 2018$" manage=off
-        yabai -m rule --add app="^Audio Hijack$" manage=off
         yabai -m rule --add app="^BrowserStackLocal$" manage=off
         yabai -m rule --add app="^CodeKit$" manage=off
         yabai -m rule --add app="^Dash$" manage=off
@@ -68,6 +61,7 @@
         yabai -m rule --add app="^Podcasts$" manage=off
         yabai -m rule --add app="^Music$" manage=off
         yabai -m rule --add app="^Sono$" manage=off
+        yabai -m rule --add app="^Cryptomator$" manage=off
         #float system preferences
         yabai -m rule --add app="^System Settings$" manage=off
         yabai -m rule --add app="^System Information$" manage=off
@@ -145,12 +139,5 @@
     shift + alt - 5 : yabai -m window --space 5;
     shift + alt - 6 : yabai -m window --space 6;
     shift + alt - 7 : yabai -m window --space 7;
-
-    # -- Starting/Stopping/Restarting Yabai --
-
-    # stop/start/restart yabai
-    ctrl + alt - q : brew services stop yabai
-    ctrl + alt - s : brew services start yabai
-    ctrl + alt - r : brew services restart yabai
   ";
 }
