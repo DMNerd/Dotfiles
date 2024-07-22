@@ -9,6 +9,7 @@
 
     masApps = {
       Dropover = 1355679052;
+      UTM = 1538878817;
       GarageBand = 682658836;
       Keka = 470158793;
       OTPAuth = 1471867429;
