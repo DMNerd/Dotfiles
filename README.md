@@ -1,10 +1,14 @@
 # Dotfiles
 My dotfiles for MacOS setup
 
-Automated install script installs all the dependencies and stows the configuration files GNU Stow utility!
+Managed by [nix-darwin](https://github.com/LnL7/nix-darwin)
+
 
 ![Terminal](https://raw.githubusercontent.com/DMNerd/Dotfiles/main/Screenshots/Term.png "My terminal")
 
-![bpytop](https://raw.githubusercontent.com/DMNerd/dotfiles/main/Screenshots/bpytop.png "bpytop")  
+![Winman](https://raw.githubusercontent.com/DMNerd/dotfiles/main/Screenshots/Winman.png "Winman")  
 
-![lsdeluxe](https://raw.githubusercontent.com/DMNerd/dotfiles/main/Screenshots/lsdeluxe.png "LSDeluxe")
+![LS](https://raw.githubusercontent.com/DMNerd/dotfiles/main/Screenshots/LS.png "LS")
+
+Additional resources:
+[nix-darwin kickstarter](https://github.com/ryan4yin/nix-darwin-kickstarter/tree/main)
