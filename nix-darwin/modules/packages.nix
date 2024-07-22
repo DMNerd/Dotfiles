@@ -3,7 +3,6 @@
     eza
     git
     just
-    lua
     macchina
     neovim
     skhd

@@ -22,7 +22,7 @@
     nix-darwin,
     nixpkgs,
   }: let
-      system.configurationRevision = self.rev or self.dirtyRev or null;
+    system.configurationRevision = self.rev or self.dirtyRev or null;
   in {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#Adams-MacBook-Air
@@ -40,6 +40,7 @@
 
     # Expose the package set, including overlays, for convenience.
     darwinPackages = self.darwinConfigurations."Adams-MacBook-Air".pkgs;
-    formatter.${system} = nixpkgs.legacyPackages.${system}.alejandra;
+
+    formatter.aarch64-darwin = nixpkgs.legacyPackages.aarch64-darwin.alejandra;
   };
 }
