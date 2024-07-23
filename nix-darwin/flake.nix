@@ -13,6 +13,7 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    flake-utils.url = "github:numtide/flake-utils";
     nix-darwin.url = "github:LnL7/nix-darwin";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
   };
@@ -21,13 +22,14 @@
     self,
     nix-darwin,
     nixpkgs,
+    flake-utils,
   }: let
     system.configurationRevision = self.rev or self.dirtyRev or null;
   in {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#Adams-MacBook-Air
     darwinConfigurations."Adams-MacBook-Air" = nix-darwin.lib.darwinSystem {
-      system = "aarch64-darwin";
+      system = system.aarch64-darwin;
       specialArgs = {inherit inputs;};
       modules = [
         ./modules/core.nix
