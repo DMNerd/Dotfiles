@@ -7,6 +7,7 @@
   # Necessary for using flakes on this system.
   nix.settings.experimental-features = "nix-command flakes";
   nix.settings.trusted-users = ["dmnerd"];
+  nix.configureBuildUsers = true;
   nix.settings.max-jobs = "auto";
   nix.package = pkgs.nix;
   nix.extraOptions = ''

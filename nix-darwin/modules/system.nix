@@ -16,12 +16,17 @@
       # customize dock
       dock = {
         autohide = true;
+        orientation = "right";
         show-recents = false; # disable recent apps
+        showhidden = true;
+        minimize-to-application = true;
+        mineffect = "scale";
+        static-only = false;
+        mru-spaces = false;
         # customize Hot Corners(触发角, 鼠标移动到屏幕角落时触发的动作)
         wvous-tl-corner = 2; # top-left - Mission Control
         wvous-tr-corner = 13; # top-right - Lock Screen
         wvous-bl-corner = 3; # bottom-left - Application Windows
-        wvous-br-corner = 14; # bottom-right - Quick Note
         tilesize = 50;
       };
 
@@ -47,7 +52,7 @@
       # Incomplete list of macOS `defaults` commands :
       #   https://github.com/yannbertrand/macos-defaults
       NSGlobalDomain = {
-        # `defaults read NSGlobalDomain "xxx"`
+        _HIHideMenuBar = true;
         "com.apple.swipescrolldirection" = true; # enable natural scrolling(default to true)
         "com.apple.sound.beep.feedback" = 0; # disable beep sound when pressing volume up/down key
         AppleInterfaceStyle = "Dark"; # dark mode
@@ -123,6 +128,8 @@
         };
         # Prevent Photos from opening automatically when devices are plugged in
         "com.apple.ImageCapture".disableHotPlug = true;
+        # Turn on app auto-update
+        "com.apple.commerce".AutoUpdate = true;
       };
 
       loginwindow = {
