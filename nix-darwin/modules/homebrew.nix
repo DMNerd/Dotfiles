@@ -16,7 +16,7 @@
       GarageBand = 682658836;
       Keka = 470158793;
       OTPAuth = 1471867429;
-      Tailscale = 1475387142; # App Store URL id
+      Tailscale = 1475387142; 
       Theine = 955848755;
     };
 
@@ -24,18 +24,14 @@
       "homebrew/services"
       "macos-fuse-t/homebrew-cask"
     ];
-    # `brew install`
-    # TODO Feel free to add your favorite apps here.
     brews = [
       "bpytop"
-      "curl" # no not install curl via nixpkgs, it's not working well on macOS!
+      "curl" 
       "starship"
       "stow"
       "thefuck"
-      "wget" # download tool
+      "wget" 
     ];
-    # `brew install --cask`
-    # TODO Feel free to add your favorite apps here.
     casks = [
       "arc"
       "cryptomator"
