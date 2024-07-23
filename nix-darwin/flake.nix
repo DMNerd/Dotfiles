@@ -29,8 +29,6 @@
     system = "aarch64-darwin";
     hostname = "Adams-MacBook-Air";
   in {
-    # Build darwin flake using:
-    # $ darwin-rebuild build --flake .#Adams-MacBook-Air
     darwinConfigurations.${hostname} = nix-darwin.lib.darwinSystem {
       specialArgs = {inherit system inputs;};
       modules = [
@@ -41,9 +39,6 @@
         ./modules/winman.nix
       ];
     };
-
-    # Expose the package set, including overlays, for convenience.
-    darwinPackages = self.darwinConfigurations.${hostname}.pkgs;
 
     formatter.${system} = nixpkgs.legacyPackages.${system}.alejandra;
   };

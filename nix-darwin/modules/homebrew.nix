@@ -34,7 +34,6 @@
     casks = [
       "arc"
       "cryptomator"
-      "floorp"
       "font-sf-mono"
       "font-sf-pro"
       "fuse-t"
@@ -51,7 +50,6 @@
       "superproductivity"
       "termius"
       "tuxera-ntfs"
-      "visual-studio-code"
       "vmware-fusion"
       "warp"
       "whisky"
