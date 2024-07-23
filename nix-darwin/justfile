@@ -5,6 +5,8 @@ gc:
   sudo nix store gc --debug
 up:
   nix flake update
+chup:
+  nix-channel --update
 cl:
   nix flake update --commit-lock-file
 fmt:

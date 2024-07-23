@@ -16,7 +16,7 @@
       GarageBand = 682658836;
       Keka = 470158793;
       OTPAuth = 1471867429;
-      Tailscale = 1475387142; 
+      Tailscale = 1475387142;
       Theine = 955848755;
     };
 
@@ -25,12 +25,11 @@
       "macos-fuse-t/homebrew-cask"
     ];
     brews = [
-      "bpytop"
-      "curl" 
+      "curl"
       "starship"
       "stow"
       "thefuck"
-      "wget" 
+      "wget"
     ];
     casks = [
       "arc"
