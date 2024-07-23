@@ -2,6 +2,7 @@
   inputs,
   pkgs,
   lib,
+  system,
   ...
 }: {
   # Necessary for using flakes on this system.
@@ -35,5 +36,5 @@
   # The platform the configuration will be used on.
   nixpkgs.config.allowUnfree = true;
   nixpkgs.config.allowUnfreePredicate = _: true;
-  nixpkgs.hostPlatform = "aarch64-darwin";
+  nixpkgs.hostPlatform = system;
 }

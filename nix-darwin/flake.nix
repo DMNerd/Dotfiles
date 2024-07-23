@@ -26,13 +26,13 @@
     nixpkgs,
     flake-utils,
   }: let
-    system.configurationRevision = self.rev or self.dirtyRev or null;
+    system = "aarch64-darwin";
+    hostname = "Adams-MacBook-Air";
   in {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#Adams-MacBook-Air
-    darwinConfigurations."Adams-MacBook-Air" = nix-darwin.lib.darwinSystem {
-      system = system.aarch64-darwin;
-      specialArgs = {inherit inputs;};
+    darwinConfigurations.${hostname} = nix-darwin.lib.darwinSystem {
+      specialArgs = {inherit system inputs;};
       modules = [
         ./modules/core.nix
         ./modules/system.nix
@@ -43,8 +43,8 @@
     };
 
     # Expose the package set, including overlays, for convenience.
-    darwinPackages = self.darwinConfigurations."Adams-MacBook-Air".pkgs;
+    darwinPackages = self.darwinConfigurations.${hostname}.pkgs;
 
-    formatter.aarch64-darwin = nixpkgs.legacyPackages.aarch64-darwin.alejandra;
+    formatter.${system} = nixpkgs.legacyPackages.${system}.alejandra;
   };
 }
