@@ -186,7 +186,7 @@
       })
     ];
   };
-  environment.launchDaemons."limit.maxfiles.plist" ={
+  environment.launchDaemons."limit.maxfiles.plist" = {
     enable = true;
     text = ''
       <?xml version="1.0" encoding="UTF-8"?>
@@ -210,6 +210,6 @@
       <false/>
       </dict>
       </plist>
-      '';
+    '';
   };
 }
