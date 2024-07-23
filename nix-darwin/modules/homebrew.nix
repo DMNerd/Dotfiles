@@ -48,6 +48,7 @@
       "raycast"
       "sf-symbols"
       "spotify"
+      "superproductivity"
       "termius"
       "tuxera-ntfs"
       "visual-studio-code"
