@@ -160,7 +160,7 @@
   environment.shells = [
     pkgs.zsh
   ];
-  environment.variables.EDITOR = "nvim";
+  environment.variables.EDITOR = "zed";
   environment.launchDaemons."limit.maxfiles.plist" = {
     enable = true;
     text = ''
