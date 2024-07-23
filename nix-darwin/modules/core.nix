@@ -21,9 +21,6 @@
     interval.Day = 7;
     options = "--delete-older-than 7d";
   };
-  environment.shellInit = ''
-    ulimit -n 2048
-  '';
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
 

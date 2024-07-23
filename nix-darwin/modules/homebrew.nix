@@ -1,12 +1,15 @@
 {pkgs, ...}: {
   homebrew = {
     enable = true;
-
     onActivation = {
-      autoUpdate = false;
+      autoUpdate = true;
+      upgrade = true;
       cleanup = "zap";
     };
-
+    brewPrefix = "/opt/homebrew/bin";
+    caskArgs = {
+      no_quarantine = true;
+    };
     masApps = {
       Dropover = 1355679052;
       UTM = 1538878817;
@@ -19,8 +22,8 @@
 
     taps = [
       "homebrew/services"
+      "macos-fuse-t/homebrew-cask"
     ];
-
     # `brew install`
     # TODO Feel free to add your favorite apps here.
     brews = [
@@ -31,7 +34,6 @@
       "thefuck"
       "wget" # download tool
     ];
-
     # `brew install --cask`
     # TODO Feel free to add your favorite apps here.
     casks = [
@@ -40,11 +42,14 @@
       "floorp"
       "font-sf-mono"
       "font-sf-pro"
+      "fuse-t"
+      "fuse-t-sshfs"
       "github"
       "iina"
       "imageoptim"
       "jellyfin-media-player"
       "kekaexternalhelper"
+      "monitorcontrol"
       "raycast"
       "sf-symbols"
       "spotify"
