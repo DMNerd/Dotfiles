@@ -33,11 +33,10 @@
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
 
-  # The platform the configuration will be used on.
   nixpkgs = {
     config = {
       allowUnfree = true;
-      allowUnfreePredicate = (_: true);
+      allowUnfreePredicate = _: true;
     };
   };
 }
