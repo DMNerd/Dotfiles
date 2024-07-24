@@ -2,6 +2,7 @@
   inputs,
   pkgs,
   lib,
+  system,
   ...
 }: {
   # Necessary for using flakes on this system.
@@ -34,6 +35,7 @@
   system.stateVersion = 4;
 
   nixpkgs = {
+    hostPlatform = system;
     config = {
       allowUnfree = true;
       allowUnfreePredicate = _: true;
