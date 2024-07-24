@@ -1,4 +1,5 @@
 {pkgs, ...}: {
+  # Packages
   environment.systemPackages = with pkgs; [
     btop
     eza
