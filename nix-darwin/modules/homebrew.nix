@@ -7,6 +7,9 @@
       cleanup = "zap";
     };
     brewPrefix = "/opt/homebrew/bin";
+    extraConfig = ''
+      cask_args appdir: "~/Applications"
+    '';
     caskArgs = {
       no_quarantine = true;
     };
@@ -19,7 +22,6 @@
       Tailscale = 1475387142;
       Theine = 955848755;
     };
-
     taps = [
       "homebrew/services"
       "macos-fuse-t/homebrew-cask"

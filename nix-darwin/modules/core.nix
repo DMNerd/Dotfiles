@@ -2,7 +2,6 @@
   inputs,
   pkgs,
   lib,
-  system,
   ...
 }: {
   # Necessary for using flakes on this system.
@@ -35,7 +34,10 @@
   system.stateVersion = 4;
 
   # The platform the configuration will be used on.
-  nixpkgs.config.allowUnfree = true;
-  nixpkgs.config.allowUnfreePredicate = _: true;
-  nixpkgs.hostPlatform = system;
+  nixpkgs = {
+    config = {
+      allowUnfree = true;
+      allowUnfreePredicate = (_: true);
+    };
+  };
 }

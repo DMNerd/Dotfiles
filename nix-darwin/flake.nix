@@ -21,12 +21,10 @@
     self,
     nix-darwin,
     nixpkgs,
-  }: let
-    system = "aarch64-darwin";
-    hostname = "Adams-MacBook-Air";
-  in {
-    darwinConfigurations.${hostname} = nix-darwin.lib.darwinSystem {
-      specialArgs = {inherit system inputs;};
+  }: {
+    darwinConfigurations."Adams-MacBook-Air" = nix-darwin.lib.darwinSystem {
+      system = "aarch64-darwin";
+      specialArgs = {inherit inputs;};
       modules = [
         ./modules/core.nix
         ./modules/system.nix
@@ -35,6 +33,6 @@
         ./modules/winman.nix
       ];
     };
-    formatter.${system} = nixpkgs.legacyPackages.${system}.alejandra;
+    formatter.aarch64-darwin = nixpkgs.legacyPackages.aarch64-darwin.alejandra;
   };
 }
