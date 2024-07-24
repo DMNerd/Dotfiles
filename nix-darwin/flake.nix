@@ -1,5 +1,5 @@
 {
-  description = "Nerd`s System Flake";
+  description = "Nerd`s M1 Air System Flake";
 
   nixConfig = {
     substituters = [
