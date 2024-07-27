@@ -7,10 +7,7 @@
     just
     macchina
     neovim
-    skhd
-    yabai
   ];
-  # Fonts
   fonts = {
     packages = with pkgs; [
       # icon fonts

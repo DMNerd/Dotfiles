@@ -36,5 +36,6 @@
       ];
     };
     formatter.${system} = nixpkgs.legacyPackages.${system}.alejandra;
+    packages.${system}.default = self.packages.${system}.hello;
   };
 }

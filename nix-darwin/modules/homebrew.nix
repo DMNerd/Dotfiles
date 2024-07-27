@@ -25,6 +25,7 @@
     taps = [
       "homebrew/services"
       "macos-fuse-t/homebrew-cask"
+      "localsend/localsend"
     ];
     brews = [
       "curl"
@@ -32,9 +33,11 @@
       "stow"
       "thefuck"
       "wget"
+      "ollama"
     ];
     casks = [
       "arc"
+      "appcleaner"
       "cryptomator"
       "font-sf-mono"
       "font-sf-pro"
@@ -45,6 +48,7 @@
       "imageoptim"
       "jellyfin-media-player"
       "kekaexternalhelper"
+      "localsend"
       "monitorcontrol"
       "raycast"
       "sf-symbols"
