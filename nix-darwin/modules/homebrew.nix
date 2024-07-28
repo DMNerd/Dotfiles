@@ -32,7 +32,13 @@
       "stow"
       "thefuck"
       "wget"
-      "ollama"
+
+      "earthly"
+            {
+              name = "ollama";
+              start_service = true;
+              restart_service = "changed";
+            }
     ];
     casks = [
       "arc"
