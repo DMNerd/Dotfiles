@@ -42,4 +42,10 @@
       allowUnfreePredicate = _: true;
     };
   };
+
+  users.users."dmnerd" = {
+    home = "/Users/dmnerd";
+    description = "dmnerd";
+    shell = pkgs.zsh;
+  };
 }

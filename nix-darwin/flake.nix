@@ -42,7 +42,9 @@
           home-manager = {
             useGlobalPkgs = true;
             useUserPackages = true;
-            users.dmmnerd = import ./home;
+            extraSpecialArgs = { inherit inputs; };
+            users.dmnerd.imports = [./home];
+            backupFileExtension = "bak";
           };
         }
       ];

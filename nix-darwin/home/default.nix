@@ -1,13 +1,13 @@
 {...}: {
-  # import sub modules
-  imports = [
-  ];
-
   home = {
-    username = dmnerd;
+    username = "dmnerd";
     homeDirectory = "/Users/dmnerd";
 
     stateVersion = "24.05";
+  };
+  programs.nix-index = {
+    enable = true;
+    enableZshIntegration = true;
   };
 
   programs.home-manager.enable = true;
