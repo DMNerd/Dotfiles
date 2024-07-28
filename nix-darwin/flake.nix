@@ -31,18 +31,14 @@
     darwinConfigurations.${hostname} = nix-darwin.lib.darwinSystem {
       specialArgs = {inherit system inputs;};
       modules = [
-        ./modules/core.nix
-        ./modules/system.nix
-        ./modules/packages.nix
-        ./modules/homebrew.nix
-        ./modules/winman.nix
+        ./modules/darwin
 
         home-manager.darwinModules.home-manager
         {
           home-manager = {
             useGlobalPkgs = true;
             useUserPackages = true;
-            extraSpecialArgs = { inherit inputs; };
+            extraSpecialArgs = {inherit inputs;};
             users.dmnerd.imports = [./home];
             backupFileExtension = "bak";
           };
