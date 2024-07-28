@@ -34,11 +34,11 @@
       "wget"
 
       "earthly"
-            {
-              name = "ollama";
-              start_service = true;
-              restart_service = "changed";
-            }
+      {
+        name = "ollama";
+        start_service = true;
+        restart_service = "changed";
+      }
     ];
     casks = [
       "arc"

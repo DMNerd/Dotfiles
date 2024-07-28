@@ -45,11 +45,11 @@
       };
       #Firewall
       alf = {
-            # 0 = disabled 1 = enabled 2 = blocks all connections except for essential services
-            globalstate = 1;
-            loggingenabled = 0;
-            stealthenabled = 1;
-          };
+        # 0 = disabled 1 = enabled 2 = blocks all connections except for essential services
+        globalstate = 1;
+        loggingenabled = 0;
+        stealthenabled = 1;
+      };
       # customize settings that not supported by nix-darwin directly
       # Incomplete list of macOS `defaults` commands :
       #   https://github.com/yannbertrand/macos-defaults

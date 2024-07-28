@@ -36,6 +36,15 @@
         ./modules/packages.nix
         ./modules/homebrew.nix
         ./modules/winman.nix
+
+        home-manager.darwinModules.home-manager
+        {
+          home-manager = {
+            useGlobalPkgs = true;
+            useUserPackages = true;
+            users.dmmnerd = import ./home;
+          };
+        }
       ];
     };
     formatter.${system} = nixpkgs.legacyPackages.${system}.alejandra;
