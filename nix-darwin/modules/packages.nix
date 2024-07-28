@@ -7,6 +7,7 @@
     just
     macchina
     neovim
+    starship
   ];
   fonts = {
     packages = with pkgs; [

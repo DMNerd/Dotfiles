@@ -29,7 +29,6 @@
     ];
     brews = [
       "curl"
-      "starship"
       "stow"
       "thefuck"
       "wget"
