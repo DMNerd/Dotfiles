@@ -12,6 +12,7 @@
       # customize dock
       dock = {
         autohide = true;
+	autohide-time-modifier = 0.15;
         orientation = "right";
         show-recents = false; # disable recent apps
         showhidden = true;
