@@ -18,4 +18,5 @@ macchina
 
 alias ls=eza --icons=always
 alias top=btop
+alias weather="curl wttr.in"
 eval $(thefuck --alias)
