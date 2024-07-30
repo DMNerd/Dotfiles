@@ -29,7 +29,7 @@
       specialArgs = {inherit inputs;};
       system = "aarch64-darwin";
       modules = [
-        ./darwin
+        ./nix-darwin
 
         home-manager.darwinModules.home-manager
         {
@@ -37,7 +37,7 @@
             useGlobalPkgs = true;
             useUserPackages = true;
             extraSpecialArgs = {inherit inputs;};
-            users.dmnerd.imports = [./home];
+            users.dmnerd.imports = [./nix-darwin/home];
             backupFileExtension = "bak";
           };
         }
