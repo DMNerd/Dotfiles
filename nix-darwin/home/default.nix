@@ -15,5 +15,6 @@
 
   imports = [
     ./dots/zsh.nix
+    ./dots/starship.nix
   ];
 }
