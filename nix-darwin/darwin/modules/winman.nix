@@ -142,6 +142,6 @@
     shift + alt - 7 : yabai -m window --space 7;
   ";
   services.jankyborders.enable = true;
-  services.jankyborders.active_color = "0xffe1e3e4";
-  services.jankyborders.inactive_color = "0xff494d64";
+  services.jankyborders.active_color = "0xffDBDBDB";
+  services.jankyborders.inactive_color = "0xff121420";
 }
