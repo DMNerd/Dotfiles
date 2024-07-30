@@ -31,8 +31,6 @@
       "curl"
       "thefuck"
       "wget"
-
-      "earthly"
       {
         name = "ollama";
         start_service = true;
@@ -43,6 +41,7 @@
       "arc"
       "appcleaner"
       "cryptomator"
+      "docker"
       "font-sf-mono"
       "font-sf-pro"
       "fuse-t"

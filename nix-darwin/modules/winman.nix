@@ -52,6 +52,7 @@
       yabai -m rule --add app="^Raycast$" manage=off
       yabai -m rule --add app="^Sono$" manage=off
       yabai -m rule --add app="^VMware Fusion$" manage=off
+      yabai -m rule --add app="^AppCleaner$" manage=off
       #float system preferences
       yabai -m rule --add app="^Installer$" manage=off
       yabai -m rule --add app="^System Information$" manage=off
@@ -133,5 +134,5 @@
   ";
   services.jankyborders.enable = true;
   services.jankyborders.active_color = "0xffDBDBDB";
-  services.jankyborders.inactive_color = "0xff121420";
+  services.jankyborders.inactive_color = "0xffb0a8b9";
 }

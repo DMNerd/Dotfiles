@@ -13,5 +13,4 @@ fmt:
   # format the nix files in this repo
   nix fmt
 rbd:
-  nix flake update
   darwin-rebuild switch --flake .
