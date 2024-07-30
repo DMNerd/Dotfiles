@@ -5,6 +5,7 @@
     eza
     git
     just
+    thefuck
     macchina
     neovim
   ];

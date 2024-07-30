@@ -29,7 +29,6 @@
     ];
     brews = [
       "curl"
-      "thefuck"
       "wget"
       {
         name = "ollama";
