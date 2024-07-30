@@ -7,6 +7,7 @@
     just
     thefuck
     macchina
+    m-cli
     neovim
   ];
   fonts = {
@@ -25,7 +26,6 @@
           "SourceCodePro"
           "Hack"
           "Iosevka"
-          "Meslo"
         ];
       })
     ];
