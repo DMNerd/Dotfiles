@@ -14,7 +14,7 @@
   programs.home-manager.enable = true;
 
   imports = [
-    ./dots/zsh.nix
-    ./dots/starship.nix
+    ./dots/zsh
+    ./dots/starship
   ];
 }
