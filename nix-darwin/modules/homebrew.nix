@@ -45,7 +45,7 @@
       "font-sf-pro"
       "fuse-t"
       "fuse-t-sshfs"
-      "github"
+      "gitkraken"
       "iina"
       "imageoptim"
       "jellyfin-media-player"
