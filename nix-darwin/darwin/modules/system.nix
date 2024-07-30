@@ -12,7 +12,8 @@
       # customize dock
       dock = {
         autohide = true;
-	autohide-time-modifier = 0.15;
+        autohide-delay = 0.0;
+        autohide-time-modifier = 0.1;
         orientation = "right";
         show-recents = false; # disable recent apps
         showhidden = true;
@@ -122,7 +123,7 @@
           askForPasswordDelay = 0;
         };
         "com.apple.screencapture" = {
-          location = "~/Desktop";
+          location = "~/Pictures";
           type = "png";
         };
         "com.apple.AdLib" = {
@@ -132,6 +133,15 @@
         "com.apple.ImageCapture".disableHotPlug = true;
         # Turn on app auto-update
         "com.apple.commerce".AutoUpdate = true;
+        "com.apple.SoftwareUpdate" = {
+          AutomaticCheckEnabled = true;
+          # Check for software updates daily, not just once per week
+          ScheduleFrequency = 1;
+          # Download newly available updates in background
+          AutomaticDownload = 1;
+          # Install System data files & security updates
+          CriticalUpdateInstall = 1;
+        };
       };
 
       loginwindow = {
