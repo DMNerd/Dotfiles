@@ -24,14 +24,12 @@
     nix-darwin,
     nixpkgs,
     home-manager,
-  }: let
-    system = "aarch64-darwin";
-    hostname = "Adams-MacBook-Air";
-  in {
-    darwinConfigurations.${hostname} = nix-darwin.lib.darwinSystem {
-      specialArgs = {inherit system inputs;};
+  }: {
+    darwinConfigurations."Adams-MacBook-Air" = nix-darwin.lib.darwinSystem {
+      specialArgs = {inherit inputs;};
+      system = "aarch64-darwin";
       modules = [
-        ./darwin/modules
+        ./darwin
 
         home-manager.darwinModules.home-manager
         {
@@ -45,7 +43,6 @@
         }
       ];
     };
-    formatter.${system} = nixpkgs.legacyPackages.${system}.alejandra;
-    packages.${system}.default = self.packages.${system}.hello;
+    formatter.aarch64-darwin = nixpkgs.legacyPackages.aarch64-darwin.alejandra;
   };
 }
