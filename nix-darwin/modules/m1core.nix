@@ -36,10 +36,7 @@
 
   nixpkgs = {
     hostPlatform = "aarch64-darwin";
-    config = {
-      allowUnfree = true;
-      allowUnfreePredicate = _: true;
-    };
+    config.allowUnfree = true;
   };
 
   users.users."dmnerd" = {
