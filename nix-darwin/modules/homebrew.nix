@@ -58,6 +58,8 @@
       "superproductivity"
       "termius"
       "tuxera-ntfs"
+      "transmission"
+      "transmission-remote-gui"
       "vmware-fusion"
       "warp"
       "whisky"

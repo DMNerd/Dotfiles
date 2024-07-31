@@ -53,14 +53,16 @@
       yabai -m rule --add app="^Sono$" manage=off
       yabai -m rule --add app="^VMware Fusion$" manage=off
       yabai -m rule --add app="^AppCleaner$" manage=off
+      yabai -m rule --add app="^Transmission$" manage=off
       #float system preferences
       yabai -m rule --add app="^Installer$" manage=off
       yabai -m rule --add app="^System.*$" manage=off
       yabai -m rule --add title='^.*Preferences$' manage=off
       yabai -m rule --add title='^Archive Utility$' manage=off
+      yabai -m rule --add title='^App Store$' manage=off
       yabai -m rule --add label="Safari Floating" app="^Safari$" title="(General|Tabs|AutoFill|Passwords|Search|Security|Privacy|Websites|Profiles|Extensions|Advanced)" manage=off
       yabai -m rule --add label="Mail Floating" app="^Mail$" title="(New Message|^Re.*$)" manage=off
-      yabai -m rule --add title="(Copy|Bin|About This Mac|Info)" manage=off
+      yabai -m rule --add title="(Copy|Trash|Bin|About This Mac|Info|Connect to Server|Connecting to Server)" manage=off
       '';
   };
   services.skhd.enable = true;
