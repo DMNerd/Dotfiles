@@ -61,6 +61,7 @@
       yabai -m rule --add title='Preferences$' manage=off
       yabai -m rule --add title='^Archive Utility$' manage=off
       yabai -m rule --add label="Safari Floating" app="^Safari$" title="(General|Tabs|AutoFill|Passwords|Search|Security|Privacy|Websites|Profiles|Extensions|Advanced)" manage=off
+      yabai -m rule --add label="Mail Floating" app="^Mail$" title="(New Message|^Re.*$)" manage=off
       yabai -m rule --add title="(Copy|Bin|About This Mac|Info)" manage=off
       '';
   };
