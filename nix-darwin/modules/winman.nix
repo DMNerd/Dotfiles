@@ -55,10 +55,8 @@
       yabai -m rule --add app="^AppCleaner$" manage=off
       #float system preferences
       yabai -m rule --add app="^Installer$" manage=off
-      yabai -m rule --add app="^System Information$" manage=off
-      yabai -m rule --add app="^System Preferences$" manage=off
-      yabai -m rule --add app="^System Settings$" manage=off
-      yabai -m rule --add title='Preferences$' manage=off
+      yabai -m rule --add app="^System.*$" manage=off
+      yabai -m rule --add title='^.*Preferences$' manage=off
       yabai -m rule --add title='^Archive Utility$' manage=off
       yabai -m rule --add label="Safari Floating" app="^Safari$" title="(General|Tabs|AutoFill|Passwords|Search|Security|Privacy|Websites|Profiles|Extensions|Advanced)" manage=off
       yabai -m rule --add label="Mail Floating" app="^Mail$" title="(New Message|^Re.*$)" manage=off
