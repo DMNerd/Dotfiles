@@ -38,6 +38,7 @@
       yabai -m rule --add app="^Disk Utility$" manage=off
       yabai -m rule --add app="^Docker Desktop$" manage=off
       yabai -m rule --add app="^GitHub Desktop$" manage=off
+      yabai -m rule --add app="^OrbStack$" manage=off
       yabai -m rule --add app="^Hidden Bar$" manage=off
       yabai -m rule --add app="^ImageOptim$" manage=off
       yabai -m rule --add app="^Keka$" manage=off
@@ -58,6 +59,8 @@
       yabai -m rule --add app="^Installer$" manage=off
       yabai -m rule --add app="^System.*$" manage=off
       yabai -m rule --add title='^.*Preferences$' manage=off
+      yabai -m rule --add title='^.*Settings$' manage=off
+      yabai -m rule --add title='^.*Setup$' manage=off
       yabai -m rule --add title='^Archive Utility$' manage=off
       yabai -m rule --add title='^App Store$' manage=off
       yabai -m rule --add label="Safari Floating" app="^Safari$" title="(General|Tabs|AutoFill|Passwords|Search|Security|Privacy|Websites|Profiles|Extensions|Advanced)" manage=off

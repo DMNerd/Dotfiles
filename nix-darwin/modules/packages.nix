@@ -1,6 +1,7 @@
 {pkgs, ...}: {
   # Packages
   environment.systemPackages = with pkgs; [
+    asitop
     btop
     eza
     git
