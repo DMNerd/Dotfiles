@@ -38,6 +38,7 @@
       yabai -m rule --add app="^Disk Utility$" manage=off
       yabai -m rule --add app="^Docker Desktop$" manage=off
       yabai -m rule --add app="^GitHub Desktop$" manage=off
+      yabai -m rule --add app="^GitKraken$" manage=off
       yabai -m rule --add app="^OrbStack$" manage=off
       yabai -m rule --add app="^Hidden Bar$" manage=off
       yabai -m rule --add app="^ImageOptim$" manage=off
