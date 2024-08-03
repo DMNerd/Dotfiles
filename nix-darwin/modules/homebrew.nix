@@ -26,6 +26,7 @@
       "homebrew/services"
       "macos-fuse-t/homebrew-cask"
       "localsend/localsend"
+      "xpipe-io/tap"
     ];
     brews = [
       "curl"
@@ -63,6 +64,7 @@
       "vmware-fusion"
       "warp"
       "whisky"
+      "xpipe"
       "zed"
     ];
   };
