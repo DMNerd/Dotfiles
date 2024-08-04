@@ -41,6 +41,7 @@
       "arc"
       "appcleaner"
       "cryptomator"
+      "cyberduck"
       "font-sf-mono"
       "font-sf-pro"
       "fuse-t"
