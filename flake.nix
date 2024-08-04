@@ -24,11 +24,11 @@
   outputs = inputs @ {
     self,
     nix-darwin,
+    nixos-wsl,
     nixpkgs,
     home-manager,
   }: {
     darwinConfigurations."Adams-MacBook-Air" = nix-darwin.lib.darwinSystem {
-      specialArgs = {inherit inputs;};
       system = "aarch64-darwin";
       modules = [
         ./nix-darwin
@@ -39,7 +39,7 @@
             useGlobalPkgs = true;
             useUserPackages = true;
             extraSpecialArgs = {inherit inputs;};
-            users.dmnerd.imports = [./nix-darwin/home];
+            users.dmnerd.imports = [./home];
             backupFileExtension = "bak";
           };
         }
@@ -48,10 +48,22 @@
     nixosConfigurations."WSL" = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
+        ./nix-wsl
+
         nixos-wsl.nixosModules.default
         {
           system.stateVersion = "24.05";
           wsl.enable = true;
+        }
+        home-manager.nixosModules.home-manager
+        {
+          home-manager = {
+            useGlobalPkgs = true;
+            useUserPackages = true;
+            extraSpecialArgs = {inherit inputs;};
+            users.dmnerd.imports = [./home];
+            backupFileExtension = "bak";
+          };
         }
       ];
     };

@@ -67,7 +67,7 @@
       yabai -m rule --add label="Safari Floating" app="^Safari$" title="(General|Tabs|AutoFill|Passwords|Search|Security|Privacy|Websites|Profiles|Extensions|Advanced)" manage=off
       yabai -m rule --add label="Mail Floating" app="^Mail$" title="(New Message|^Re.*$)" manage=off
       yabai -m rule --add title="(Copy|Trash|Bin|About This Mac|Info|Connect to Server|Connecting to Server)" manage=off
-      '';
+    '';
   };
   services.skhd.enable = true;
   services.skhd.skhdConfig = "
