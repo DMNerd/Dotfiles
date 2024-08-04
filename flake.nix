@@ -39,7 +39,7 @@
             useGlobalPkgs = true;
             useUserPackages = true;
             extraSpecialArgs = {inherit inputs;};
-            users.dmnerd.imports = [./home];
+            users.dmnerd.imports = [./nix-darwin/home];
             backupFileExtension = "bak";
           };
         }
@@ -61,7 +61,7 @@
             useGlobalPkgs = true;
             useUserPackages = true;
             extraSpecialArgs = {inherit inputs;};
-            users.dmnerd.imports = [./home];
+            users.dmnerd.imports = [./nix-wsl/home];
             backupFileExtension = "bak";
           };
         }
