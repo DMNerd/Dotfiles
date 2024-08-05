@@ -14,3 +14,5 @@ fmt:
   nix fmt
 rbd:
   darwin-rebuild switch --flake .
+wsrbd:
+  nixos-rebuild switch --flake '.#WSL'
