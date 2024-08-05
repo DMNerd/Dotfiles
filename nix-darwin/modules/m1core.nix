@@ -2,6 +2,7 @@
   inputs,
   pkgs,
   lib,
+  system,
   ...
 }: {
   # Necessary for using flakes on this system.
@@ -35,7 +36,7 @@
   system.checks.verifyNixPath = false;
 
   nixpkgs = {
-    hostPlatform = "aarch64-darwin";
+    hostPlatform = system;
     config.allowUnfree = true;
   };
 

@@ -27,7 +27,13 @@
     nixos-wsl,
     nixpkgs,
     home-manager,
-  }: {
+  }: let
+    systems = [
+      "x86_64-linux"
+      "aarch64-darwin"
+    ];
+    forAllSystems = nixpkgs.lib.genAttrs systems;
+  in {
     darwinConfigurations."Adams-MacBook-Air" = nix-darwin.lib.darwinSystem {
       system = "aarch64-darwin";
       modules = [
@@ -67,7 +73,6 @@
         }
       ];
     };
-    formatter.aarch64-darwin = nixpkgs.legacyPackages.aarch64-darwin.alejandra;
-    formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.alejandra;
+    formatter = forAllSystems (system: nixpkgs.legacyPackages.${system}.alejandra);
   };
 }
