@@ -10,6 +10,7 @@
     macchina
     m-cli
     neovim
+    nnn
   ];
   fonts = {
     packages = with pkgs; [

@@ -59,6 +59,8 @@
       #float system preferences
       yabai -m rule --add app="^Installer$" manage=off
       yabai -m rule --add app="^System.*$" manage=off
+      yabai -m rule --add app="^Photos.*$" manage=off
+      yabai -m rule --add title="^.*Time Machine.*$" manage=off
       yabai -m rule --add title='^.*Preferences$' manage=off
       yabai -m rule --add title='^.*Settings$' manage=off
       yabai -m rule --add title='^.*Setup$' manage=off
