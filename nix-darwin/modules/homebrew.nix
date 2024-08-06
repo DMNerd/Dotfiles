@@ -36,6 +36,11 @@
         start_service = true;
         restart_service = "changed";
       }
+      {
+        name = "asimov";
+        start_service = true;
+        restart_service = "changed";
+      }
     ];
     casks = [
       "arc"
@@ -58,7 +63,6 @@
       "sf-symbols"
       "spotify"
       "superproductivity"
-      "termius"
       "tuxera-ntfs"
       "transmission"
       "transmission-remote-gui"

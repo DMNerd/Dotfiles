@@ -2,7 +2,6 @@
   inputs,
   pkgs,
   lib,
-  system,
   ...
 }: {
   # Necessary for using flakes on this system.
@@ -23,7 +22,7 @@
   system.stateVersion = "24.05";
 
   nixpkgs = {
-    hostPlatform = system;
+    hostPlatform = "x86_64-linux";
     config.allowUnfree = true;
   };
 
