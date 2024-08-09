@@ -47,6 +47,7 @@
       "appcleaner"
       "cryptomator"
       "cyberduck"
+      "chatgpt"
       "font-sf-mono"
       "font-sf-pro"
       "fuse-t"
