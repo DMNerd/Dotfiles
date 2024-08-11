@@ -11,13 +11,8 @@
       "extra-experimental-features" = ["nix-command" "flakes"];
       "trusted-users" = ["dmnerd"];
     };
-    configureBuildUsers = true;
+
     channel.enable = false;
-    gc = {
-      automatic = true;
-      interval.Day = 7;
-      options = "--delete-older-than 7d";
-    };
   };
   system.stateVersion = "24.05";
 
@@ -25,8 +20,10 @@
     hostPlatform = "x86_64-linux";
     config.allowUnfree = true;
   };
-
+  users.groups.dmnerd = {};
   users.users."dmnerd" = {
+    isSystemUser = true;
+    group = "dmnerd";
     home = "/home/dmnerd";
     description = "dmnerd";
     shell = pkgs.zsh;
