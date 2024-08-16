@@ -5,10 +5,6 @@
 
     stateVersion = "24.05";
   };
-  programs.nix-index = {
-    enable = true;
-    enableZshIntegration = true;
-  };
   fonts.fontconfig.enable = true;
 
   programs.home-manager.enable = true;

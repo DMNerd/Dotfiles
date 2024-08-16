@@ -2,6 +2,16 @@
   programs = {
     zsh = {
       enable = true;
+      autocd = true;
+      dotDir = ".config/zsh";
+      history = {
+        expireDuplicatesFirst = true;
+        ignoreDups = true;
+        ignoreSpace = true; # ignore commands starting with a space
+        save = 20000;
+        size = 20000;
+        share = true;
+      };
       zplug = {
         enable = true;
         plugins = [
