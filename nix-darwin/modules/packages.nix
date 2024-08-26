@@ -12,7 +12,6 @@
     m-cli
     neovim
     nnn
-    nixpkgs-lint
   ];
   fonts = {
     packages = with pkgs; [
