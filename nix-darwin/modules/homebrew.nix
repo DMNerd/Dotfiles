@@ -50,6 +50,7 @@
       "chatgpt"
       "font-sf-mono"
       "font-sf-pro"
+      "font-space-mono-nerd-font"
       "fuse-t"
       "fuse-t-sshfs"
       "gitkraken"

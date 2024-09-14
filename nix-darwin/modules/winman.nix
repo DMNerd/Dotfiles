@@ -25,6 +25,7 @@
       left_padding = 10;
       right_padding = 10;
       window_gap = 10;
+      external_bar = "all:34:0";
     };
 
     extraConfig = ''
@@ -118,5 +119,10 @@
   services.jankyborders.width = 7.0;
   services.jankyborders.blacklist = [
     "FaceTime"
+  ];
+  services.sketchybar.enable = true;
+  services.sketchybar.extraPackages = [
+    pkgs.jq
+    pkgs.lua5_4
   ];
 }

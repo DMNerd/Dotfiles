@@ -12,6 +12,8 @@
     m-cli
     neovim
     nnn
+    lua5_4
+    jq
   ];
   fonts = {
     packages = with pkgs; [
@@ -29,6 +31,7 @@
           "Hack"
           "Iosevka"
           "JetBrainsMono"
+          "SpaceMono"
         ];
       })
     ];
