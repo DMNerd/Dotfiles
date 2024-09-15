@@ -7,8 +7,8 @@
   };
 
   home.file."/Users/dmnerd/.config/sketchybar" = {
-        source = ../../dots/sketchybar;
-        recursive = true;
+    source = ../../dots/sketchybar;
+    recursive = true;
   };
   fonts.fontconfig.enable = true;
 
