@@ -39,7 +39,7 @@
         {
           home-manager = {
             useGlobalPkgs = true;
-            useUserPackages = true;
+            useUserPackages = false;
             extraSpecialArgs = {inherit inputs;};
             users.dmnerd.imports = [./nix-darwin/home];
             backupFileExtension = "bak";

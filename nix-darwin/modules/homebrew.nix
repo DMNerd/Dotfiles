@@ -26,10 +26,10 @@
       "homebrew/services"
       "macos-fuse-t/homebrew-cask"
       "localsend/localsend"
-      "xpipe-io/tap"
     ];
     brews = [
       "curl"
+      "mas"
       "wget"
       {
         name = "ollama";
@@ -48,6 +48,7 @@
       "cryptomator"
       "cyberduck"
       "chatgpt"
+      "discord"
       "font-sf-mono"
       "font-sf-pro"
       "font-space-mono-nerd-font"
@@ -61,17 +62,16 @@
       "localsend"
       "monitorcontrol"
       "orbstack"
+      "prismlauncher"
       "raycast"
       "sf-symbols"
       "spotify"
-      "superproductivity"
       "tuxera-ntfs"
       "transmission"
       "transmission-remote-gui"
       "vmware-fusion"
       "warp"
       "whisky"
-      "xpipe"
       "zed"
     ];
   };
