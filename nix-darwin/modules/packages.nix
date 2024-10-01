@@ -9,6 +9,7 @@
     just
     thefuck
     macchina
+    mas
     m-cli
     neovim
     nnn

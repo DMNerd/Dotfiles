@@ -21,6 +21,7 @@
       OTPAuth = 1471867429;
       Tailscale = 1475387142;
       Theine = 955848755;
+      WindowsApp = 1295203466;
     };
     taps = [
       "homebrew/services"
@@ -29,7 +30,6 @@
     ];
     brews = [
       "curl"
-      "mas"
       "wget"
       {
         name = "ollama";
