@@ -11,7 +11,7 @@
       "extra-experimental-features" = ["nix-command" "flakes"];
       "trusted-users" = ["dmnerd"];
       "max-jobs" = "auto";
-      "auto-optimise-store" = false;
+      "auto-optimise-store" = true;
       "warn-dirty" = false;
     };
     extraOptions = ''
@@ -44,4 +44,6 @@
     description = "dmnerd";
     shell = pkgs.zsh;
   };
+
+  programs.nix-index.enable = true;
 }

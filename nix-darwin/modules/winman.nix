@@ -65,7 +65,7 @@
     alt - return: open -a Warp -n
   '';
   services.jankyborders.enable = true;
-  services.jankyborders.active_color = "0xffA846A0";
+  services.jankyborders.active_color = "0xff73ec8b";
   services.jankyborders.inactive_color = "0xc02c2e34";
   services.jankyborders.background_color = "0x302c2e34";
   services.jankyborders.hidpi = true;

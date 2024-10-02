@@ -14,5 +14,5 @@ fmt:
   nix fmt
 rbd:
   darwin-rebuild switch --flake .
-wsrbd:
-  nixos-rebuild switch --flake '.#WSL'
+prune-hm:
+  nix run home-manager/master -- expire-generations "-1 days"
