@@ -158,7 +158,7 @@
 
       # NOTE: do NOT support remap capslock to both control and escape at the same time
       remapCapsLockToControl = false; # remap caps lock to control, useful for emac users
-      remapCapsLockToEscape = false; # remap caps lock to escape, useful for vim users
+      remapCapsLockToEscape = true; # remap caps lock to escape, useful for vim users
 
       # swap left command and left alt
       # so it matches common keyboard layout: `ctrl | command | alt`
